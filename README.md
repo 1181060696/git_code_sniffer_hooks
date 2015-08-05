@@ -5,7 +5,15 @@
 ```shell
 mkdir ~/bin/
 cd ~/bin/
-git clone git@github.com:1181060696/git_code_sniffer_hooks.git
+git clone https://github.com/1181060696/git_code_sniffer_hooks.git
+```
+
+#### PHP相关依赖：
+```shell
+curl -sS https://getcomposer.org/installer | php -- --install-dir=~/bin
+chmod +x ~/bin/composer.phar
+cd ~/bin/git_code_sniffer_hooks/
+~/bin/composer.phar install
 ```
 
 #### 安装最新稳定版Node相关依赖：
