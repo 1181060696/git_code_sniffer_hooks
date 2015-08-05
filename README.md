@@ -8,16 +8,7 @@ cd ~/bin/
 git clone git@github.com:1181060696/git_code_sniffer_hooks.git
 ```
 
-#### PHP相关依赖：
-
-```shell
-curl -s https://getcomposer.org/installer | php -- --install-dir=$HOME/bin
-chmod +x ~/bin/composer.phar
-cd ~/bin/git_code_sniffer_hooks/
-~/bin/composer.phar install
-```
-
-#### NodeJs相关依赖：
+#### 安装最新稳定版Node相关依赖：
 
 ```shell
 sudo add-apt-repository ppa:chris-lea/node.js
@@ -33,12 +24,6 @@ npm install
 sudo apt-get install python-setuptools
 sudo easy_install pip
 sudo pip install -r ~/bin/git_code_sniffer_hooks/requirements.txt
-```
-
-#### 其它：
-
-```shell
-sudo apt-get install cowsay
 ```
 
 ## 配置：
